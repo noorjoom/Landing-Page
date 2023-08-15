@@ -2,6 +2,11 @@
     font-family: sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .content-1 img {
     height: 300px;
 }
@@ -28,7 +33,7 @@
 
 .right {
     display: flex;
-    gap: 32px;10px
+    gap: 32px;
 }
 
 a {
